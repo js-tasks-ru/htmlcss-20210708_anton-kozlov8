@@ -2,15 +2,32 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <title>Accordion</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
+        <details class='accordion__item' open>
+            <summary class='accordion__summary'>
+                Accordion item 1
             </summary>
-            <p>
+            <p class='accordion__content'>
+                Hidden content
+            </p>
+        </details>
+        <details class='accordion__item'>
+            <summary class='accordion__summary'>
+                Accordion item 2
+            </summary>
+            <p class='accordion__content'>
+                Hidden content
+            </p>
+        </details>
+        <details class='accordion__item'>
+            <summary class='accordion__summary'>
+                Accordion item 3
+            </summary>
+            <p class='accordion__content'>
                 Hidden content
             </p>
         </details>
